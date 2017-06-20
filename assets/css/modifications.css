@@ -1,0 +1,52 @@
+/*Modifications.css*/
+
+.clearfix:after {
+    content: " ";
+    clear: both;
+}
+
+.img-hex {
+    width: 80px;
+}
+
+#cont-connect {
+    text-align: center;
+}
+
+.background-color-wrap {
+    background-color: #ffffff;
+    margin-right:40px;
+}
+
+#header-about,
+#header-connect,
+#header-contact {
+    color: #4aaaa5;
+}
+
+#col-connect {
+    background-color: #ffffff;
+}
+
+#header_bar {
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 40px;
+}
+
+#brand_logo {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 20px;
+}
+
+#footer_bar {
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #666666;
+    height: 75px;
+    line-height: 75px;
+    border-top: 5px #4aaaa5 solid;
+}
