@@ -1,15 +1,17 @@
 /*Modifications.css*/
 
 html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    position: relative;
+    min-height: 100%;
 }
 
-div {/* 
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+div {
+    /* 
     border: 5px red solid; */
 }
 
@@ -65,7 +67,7 @@ div {/*
     box-sizing: border-box;
     /*     margin-right: 15px; */
     margin-bottom: 75px;
-    right:20px;
+    right: 20px;
 }
 
 .background-wrap-side {
@@ -91,17 +93,30 @@ div {/*
     margin-bottom: 30px;
 }
 
-#brand_logo {
+#brand-logo {
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 0px;
-}
-#message-input
-{
-    height:75px;
+    position:absolute;
+    left:25%;
 }
 
-.footer_bar {
+#nav-list {
+      position:absolute;
+    right:25%;
+}
+
+#message-input {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#contact-form-submit {
+    margin-top: 20px;
+}
+
+.footer-bar {
     margin-top: 50px;
     z-index: 25;
     color: #ffffff;
@@ -109,10 +124,8 @@ div {/*
     border-top: 5px #4aaaa5 solid;
     position: fixed;
     left: 0;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     height: 60px;
     line-height: 60px;
 }
-
-
