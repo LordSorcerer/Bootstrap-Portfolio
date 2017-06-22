@@ -16,39 +16,26 @@
 <body style="background-image: url('./assets/images/light_honeycomb_@2X.png');">
     <!-- Brand and Navbar -->
     <header>
-        <nav id="header_bar" class="navbar navbar-default">
+        <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-            </div>
-            <div class="col-md-1">
-            </div>
-            <div class="navbar-header col-md-3">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><h1 id="brand_logo">Matthew Sullivan</h1></a>
-            </div>
-            <div class="col-md-3">
-            </div>
-            <div class="col-md-3">
-                <h3 class="navbar-text navbar-right">
-                <a href="./index.html">About</a> |
-                <a href="./portfolio.html">Portfolio</a> |
-                <a href="./contact.html">Contact</a>
-            </h3>
-            </div>
-            <div class="col-md-2">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <p id="brand_logo">Matthew Sullivan</p>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav push-right">
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="active"><a href="./contact.html">Contact</a></li>
+                </ul>
             </div>
         </nav>
     </header>
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <!-- Contact -->
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 background-color-wrap">
+            <!-- About -->
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 background-wrap-main">
                 <h1 id="header-contact" class="page-header">Contact</h1>
                 <form id="contact_form">
                     <h3>Name</h3>
@@ -59,31 +46,30 @@
                     <input id="message_input" class="form-control form-group" type="textarea" name="message">
                     <button class="submit_button btn-primary btn-lg">Submit</button>
                 </form>
-               <hr>
+                <hr>
             </div>
             <!-- Connect with me -->
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 background-color-wrap">
-                <h3 id="header-about" class="page-header">Connect with me</h3>
-                <div class="row">
-                    <p id="cont-connect">
-                        <a class="col-md-4" href="https://github.com/LordSorcerer/ " target="blank_ "><img class="img-hex" src="./assets/images/1497325069_github.png " alt="GitHub "></a>
-                        <a class="col-md-4" href="https://www.linkedin.com/in/matthew-sullivan-63870783/ " target="blank_ "><img class="img-hex" src="./assets/images/1497324755_linkedin-hexagon-social-media.png " alt="LinkedIn "></a>
-                        <a class="col-md-4" href="https://stackoverflow.com/users/8091255/tradan " target="blank_ "><img class="img-hex" src="./assets/images/1497324885_stackoverflow-hexagon-social-media.png " alt="Stack Overflow "></a>
+            <!-- Connect with me Sidebar -->
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 background-wrap-side ">
+                <h3 id="header-about " class="page-header ">Connect with me</h3>
+                <div class="row ">
+                    <p id="cont-connect ">
+                        <a class="col-md-4 " href="https://github.com/LordSorcerer/ " target="blank_ "><img class="img-hex " src="./assets/images/1497325069_github.png " alt="GitHub "></a>
+                        <a class="col-md-4 " href="https://www.linkedin.com/in/matthew-sullivan-63870783/ " target="blank_ "><img class="img-hex " src="./assets/images/1497324755_linkedin-hexagon-social-media.png " alt="LinkedIn "></a>
+                        <a class="col-md-4 " href="https://stackoverflow.com/users/8091255/tradan " target="blank_ "><img class="img-hex " src="./assets/images/1497324885_stackoverflow-hexagon-social-media.png " alt="Stack Overflow "></a>
                     </p>
                 </div>
                 <hr>
             </div>
-        </div>
-    </div>
-    </div>
-    <!-- Footer -->
-    <footer class="container">
-        <div class="row">
-            <div class="col-md-12 navbar-fixed-bottom text-center">
-                <h4 id="footer_bar">&#169;Copyright 2017 Matthew Sullivan</h4>
-            </div>
-        </div>
-    </footer>
+            <!-- Footer -->
+            <footer class="container">
+                <div class="row">
+                    <div class="col-md-12 footer_bar text-center">
+                        <h4>&#169;Copyright 2017 Matthew Sullivan</h4>
+                    </div>
+                </div>
+            </footer>
+</body>
 </body>
 
 </html>
