@@ -96,14 +96,9 @@ div {
 #brand-logo {
     color: #ffffff;
     background-color: #4aaaa5;
-    padding: 0px;
+    padding: 16px;
     position:absolute;
-    left:25%;
-}
-
-#nav-list {
-      position:absolute;
-    right:25%;
+    top: 0px;
 }
 
 #message-input {
